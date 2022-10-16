@@ -66,43 +66,43 @@ const items = {
     },
     sell: {
         potion: {
-            money: 4500
+            money: 450
         },
         trash: {
-            money: 100
+            money: 10
         },
         wood: {
-            money: 4000
+            money: 400
         },
         rock: {
-            money: 5000
+            money: 500
         },
         string: {
-            money: 4500
+            money: 450
         },
         iron: {
-            money: 7000
+            money: 700
         },
         gold: {
-            money: 8000
+            money: 800
         },
         diamond: {
-            money: 9000
+            money: 900
         },
         emerald: {
-            money: 10500
+            money: 1050
         },
         common: { 
-        	money: 2000
+        	money: 200
         },
         uncommon: { 
-        	money: 3000
+        	money: 300
         },
         mythic: { 
-        	money: 4000
+        	money: 400
         },
         legendary: { 
-        	money: 5000
+        	money: 500
         },
         superior: { 
         	money: 7500
