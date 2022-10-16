@@ -60,7 +60,7 @@ global.lolkey = 'KitsuneOFC' // PUNYA Jarot 357d3c85079c4e0818731e6b
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281347927862', '么 Kitsuneee', true],
+  ['6281328834429'],
   ['6281347927862', '么 Kitsuneee', true],
   ['6281347927862', '么 Kitsuneee', true],
   ['6281347927862', '么 Kitsuneee', true] //Ganti jd nomormu sama Namamu
