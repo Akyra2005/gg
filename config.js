@@ -265,6 +265,9 @@ global.rpg = {
       anggur: '🍇',
       pisang: '🍌',
       role: '🏅',
+      botol: '🍶',
+      kardus: '📦',
+      title: '🥫',
       title: '💬'
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
