@@ -74,7 +74,7 @@ let handler = (m, { conn, usedPrefix, command, text }) => {
 
     if(conn.tembak.tembak.indexOf("🤠") == conn.tembak.musuh.indexOf("🥷")) {
       conn.tembak = {}
-      global.db.data.users[m.sender].money += 6999
+      global.db.data.users[m.sender].money += 50000
       m.reply("Kamu menang!\n\nUang += 1000")
     }
 

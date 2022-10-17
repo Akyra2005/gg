@@ -10,9 +10,9 @@ let name = conn.getName(m.sender)
      if (new Date - global.db.data.users[m.sender].lastngojek > 3600000) {
 let randomaku1 = `${Math.floor(Math.random() * 10)}`
 let randomaku2 = `${Math.floor(Math.random() * 10)}`
-let randomaku4 = `${Math.floor(Math.random() * 5000)}`
+let randomaku4 = `${Math.floor(Math.random() * 10000)}`
 let randomaku3 = `${Math.floor(Math.random() * 10)}`
-let randomaku5 = `${Math.floor(Math.random() * 5000)}`
+let randomaku5 = `${Math.floor(Math.random() * 10000)}`
 
 .trim()
 
@@ -95,7 +95,7 @@ handler.tags = ['rpg']
 handler.command = /^(ngewe|anu)$/i
 handler.register = true
 handler.premium = false
-handler.level = 8
+handler.level = 80
 
 export default handler
 

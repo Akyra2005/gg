@@ -25,4 +25,5 @@ handler.tags = ['sticker']
 handler.command = /^wm|stikerwm|stickerwm$/i
 handler.register = true
 handler.limit = true
+handler.premium = true
 export default handler

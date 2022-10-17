@@ -29,7 +29,7 @@ handler.tags = ['rpg']
 handler.command = /^membunuh$/
 handler.limit = true
 handler.group = true
-handler.level = 10
+handler.level = 100
 export default handler
 
 function pickRandom(list) {

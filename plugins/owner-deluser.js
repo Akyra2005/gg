@@ -40,6 +40,6 @@ handler.help = ['deleteuser']
 handler.tags = ['owner']
 handler.command = /^(d(el)?(ete)?u(ser)?|ha?pu?su(ser)?)$/i
 
-handler.owner = true
+handler.rowner = true
 
 export default handler

@@ -26,12 +26,12 @@ let alasanpecat = pppecat[Math.floor(Math.random() * pppecat.length)]
 let ddppecat = ['Bakar Pasien','Jual Organ Dalem ke Lapak ilegal','serinv telat']
 let alasanpasien = ddppecat[Math.floor(Math.random() * ddppecat.length)]
 //Uang
-let uangm = Math.floor(Math.random() * 10) + 4000
-let duit = Math.floor(Math.random() * 20) + 2500
-let duitm = Math.floor(Math.random() * 50) + 9500
-let duitd = Math.floor(Math.random() * 62) + 5200
-let duitr = Math.floor(Math.random() * 20) + 4200
-let duitk = Math.floor(Math.random() * 70) + 7800
+let uangm = Math.floor(Math.random() * 10) + 40000
+let duit = Math.floor(Math.random() * 20) + 25000
+let duitm = Math.floor(Math.random() * 50) + 95000
+let duitd = Math.floor(Math.random() * 62) + 52000
+let duitr = Math.floor(Math.random() * 20) + 42000
+let duitk = Math.floor(Math.random() * 70) + 78000
 //ANJAY
 let _pecat= `${pickRandom(['1', '1', '1', '1'])}`
             let pecat = (_pecat * 1)

@@ -54,7 +54,7 @@ let handler = async (m, { conn, usedPrefix, participants }) => {
 handler.help = ['fight1']
 handler.tags = ['rpg']
 handler.command = /^(fight1)$/i
-handler.limit = 1
+handler.limit = 10
 handler.group = true
 handler.register = true
 export default handler

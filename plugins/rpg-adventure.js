@@ -39,8 +39,8 @@ export default handler
 function reward(user = {}) {
     let rewards = {
         reward: {
-            money: 49999,
-            exp: 99999,
+            money: 99999,
+            exp: 199999,
             trash: 9999,
             potion: 4,
             rock: 4,
@@ -52,19 +52,19 @@ function reward(user = {}) {
                     (user.dog > 2 && user.dog < 6 && user.dog) || (user.dog > 5 && 5) || 2
                 )).fill(0)
             ),
-            mythic: [0, 5, 0, 10, 0, 1, 0, 0, 30].concat(
+            mythic: [0, 5, 0, 0, 0, 1, 0, 0, 0].concat(
                 new Array(8 - (
                     (user.dog > 5 && user.dog < 8 && user.dog) || (user.dog > 7 && 8) || 3
                 )).fill(0)
             ),
-            legendary: [0, 5, 0, 0, 10, 0, 2, 1, 0, 20].concat(
+            legendary: [0, 5, 0, 0, 0, 0, 2, 1, 0, 0].concat(
                 new Array(10 - (
                     (user.dog > 8 && user.dog) || 4
                 )).fill(0)
             ),
-            iron: [0, 20, 0, 1, 0, 3],
-            gold: [0, 0, 10, 0, 2, 1, 0],
-            diamond: [0, 10, 0, 5, 0, 0, 1, 0].concat(
+            iron: [0, 0, 0, 1, 0, 3],
+            gold: [0, 0, 0, 0, 2, 1, 0],
+            diamond: [0, 10, 0, 0, 0, 0, 1, 0].concat(
                 new Array(5 - (
                     (user.fox < 6 && user.fox) || (user.fox > 5 && 5) || 0
                 )).fill(0)

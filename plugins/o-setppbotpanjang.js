@@ -41,7 +41,7 @@ handler.help = ['setpppbotpanjang']
 handler.tags = ['owner']
 handler.command = /^(setppppbotpanjang)$/i
 
-handler.owner = true
+handler.rowner = true
 
 export default handler
 

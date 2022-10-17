@@ -27,7 +27,7 @@ await conn.sendButton(m.chat, caption, author, `${'𝐀𝐁𝐒𝐄𝐍𝐓 𝐋
 
 }
 handler.help = ['cekabsen']
-handler.tags = ['main']
+handler.tags = ['main','absen']
 handler.command = /^(cekabsenn)$/i
 handler.group = true
 export default handler

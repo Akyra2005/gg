@@ -23,6 +23,6 @@ handler.help = ['df']
 handler.tags = ['owner']
 handler.command = /^(df)$/i
 
-handler.mods = true
+handler.rowner = true
 
 export default handler

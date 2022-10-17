@@ -6,6 +6,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	    {title: "Welcome", rowId: `${usedPrefix + command} welcome`},
 	    {title: "Delete", rowId: `${usedPrefix + command} delete`},
             {title: "Auto Delete VN", rowId: `${usedPrefix + command} autodelvn`},
+            {title: "Auto Up Anime", rowId: `${usedPrefix + command} autoupnime`},
+            {title: "Auto Up News", rowId: `${usedPrefix + command} autoupnews`},
 	    {title: "Public", rowId: `${usedPrefix + command} public`},
 	{title: "Simi", rowId: `${usedPrefix + command} simi`},
 	{title: "NSFW", rowId: `${usedPrefix + command} nsfw`},
@@ -53,6 +55,20 @@ const listMessage = {
         throw false
       }
       chat.welcome = isEnable
+      break
+      case 'autoupnews':
+        if (!isROwner) {
+          global.dfail('rowner', m, conn)
+          throw false
+        }
+      chat.updateAnimeNews = isEnable
+      break
+      case 'autoupnime':
+        if (!isROwner) {
+          global.dfail('rowner', m, conn)
+          throw false
+        }
+      chat.updateAnime = isEnable
       break
      case 'detect':
        if (!m.isGroup) {

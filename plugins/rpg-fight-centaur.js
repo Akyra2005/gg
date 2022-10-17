@@ -43,7 +43,7 @@ conn.level = global.db.data.users[m.sender]
     global.db.data.users[m.sender].tiketcoin += 1
     m.reply(`*${conn.getName(m.sender)}* [${pointPemain * 10}] - [${pointLawan * 10}] *${conn.getName(lawan)}*\n\n*Pet🐴Kamu* (centaur ${global.db.data.users[m.sender].centaur}) MENANG melawan 🐴centaurnya *${conn.getName(lawan)}* (centaur ${global.db.data.users[lawan].centaur}) karena centaur🐴kamu ${alasanMenang[Acakin(0,alasanMenang.length-1)]}\n\nHadiah Rp. ${hadiah.toLocaleString()}\n+1 Tiketcoin`)
   }else if (pointPemain < pointLawan){
-    let denda = (pointLawan - pointPemain) * 100000
+    let denda = (pointLawan - pointPemain) * 10000
     global.db.data.users[m.sender].money -= denda
     global.db.data.users[m.sender].tiketcoin += 1
     m.reply(`*${conn.getName(m.sender)}* [${pointPemain * 10}] - [${pointLawan * 10}] *${conn.getName(lawan)}*\n\n*Pet🐴Kamu* (centaur ${global.db.data.users[m.sender].centaur}) KALAH melawan 🐴centaurnya *${conn.getName(lawan)}* (centaur ${global.db.data.users[lawan].centaur}) karena pet kamu ${alasanKalah[Acakin(0,alasanKalah.length-1)]}\n\nUang kamu berkurang Rp. ${denda.toLocaleString()}\n+1 Tiketcoin`)

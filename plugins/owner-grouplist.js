@@ -9,6 +9,6 @@ ${txt}
 handler.help = ['groups', 'grouplist']
 handler.tags = ['owner']
 handler.command = /^(group(s|list))$/i
-handler.owmer = true 
+handler.owner = true 
 
 export default handler

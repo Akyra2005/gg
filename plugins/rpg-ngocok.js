@@ -16,26 +16,26 @@ conn, usedPrefix, text, participants, groupMetadata
     if (user.lastngocok > 10800000) throw m.reply(`Kamu masih kelelahan\nHarap tunggu ${timers} lagi`)
     
     
-    let rndm1 = `${Math.floor(Math.random() * 5)}`
-		let rndm2 = `${Math.floor(Math.random() * 10)}`
-		let rndm3 = `${Math.floor(Math.random() * 7)}`
-		let rndm4 = `${Math.floor(Math.random() * 4)}`
-		let rndm5 = `${Math.floor(Math.random() * 200)}`
-		let rndm6 = `${Math.floor(Math.random() * 200)}`
-		let rndm7 = `${Math.floor(Math.random() * 20)}`
-		let rndm8 = `${Math.floor(Math.random() * 100)}`
-		let rndm9 = `${Math.floor(Math.random() * 100)}`
+    let rndm1 = `${Math.floor(Math.random() * 2)}`
+		let rndm2 = `${Math.floor(Math.random() * 2)}`
+		let rndm3 = `${Math.floor(Math.random() * 2)}`
+		let rndm4 = `${Math.floor(Math.random() * 2)}`
+		let rndm5 = `${Math.floor(Math.random() * 2)}`
+		let rndm6 = `${Math.floor(Math.random() * 2)}`
+		let rndm7 = `${Math.floor(Math.random() * 2)}`
+		let rndm8 = `${Math.floor(Math.random() * 2)}`
+		let rndm9 = `${Math.floor(Math.random() * 2)}`
 .trim()
 
-let ran1 = (rndm1 * 10)
-let ran2 = (rndm2 * 10)
-let ran3 = (rndm3 * 10)
-let ran4 = (rndm4 * 10)
-let ran5 = (rndm5 * 10)
-let ran6 = (rndm6 * 10)
-let ran7 = (rndm7 * 10)
-let ran8 = (rndm8 * 10)
-let ran9 = (rndm9 * 10)
+let ran1 = (rndm1 * 1)
+let ran2 = (rndm2 * 1)
+let ran3 = (rndm3 * 1)
+let ran4 = (rndm4 * 1)
+let ran5 = (rndm5 * 1)
+let ran6 = (rndm6 * 1)
+let ran7 = (rndm7 * 1)
+let ran8 = (rndm8 * 1)
+let ran9 = (rndm9 * 1)
 
 let hmsil1 = `${ran1}`
 let hmsil2 = `${ran2}`

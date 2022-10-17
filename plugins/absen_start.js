@@ -15,7 +15,7 @@ let handler = async (m, { usedPrefix, text }) => {
     ]
 }
 handler.help = ['mulaiabsen [teks]']
-handler.tags = ['main']
+handler.tags = ['main','absen']
 handler.command = /^(start|mulai)absen$/i
 handler.group = true
 handler.admin = true

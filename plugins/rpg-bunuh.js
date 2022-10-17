@@ -9,9 +9,9 @@ let name = conn.getName(m.sender)
      if (new Date - global.db.data.users[m.sender].lastngojek > 3600000) {
 let randomaku1 = `${Math.floor(Math.random() * 10)}`
 let randomaku2 = `${Math.floor(Math.random() * 10)}`
-let randomaku4 = `${Math.floor(Math.random() * 49999)}`
+let randomaku4 = `${Math.floor(Math.random() * 99999)}`
 let randomaku3 = `${Math.floor(Math.random() * 10)}`
-let randomaku5 = `${Math.floor(Math.random() * 59999)}`
+let randomaku5 = `${Math.floor(Math.random() * 199999)}`
 
 .trim()
 

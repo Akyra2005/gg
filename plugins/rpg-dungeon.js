@@ -710,7 +710,7 @@ ${P}
 handler.help = ['dungeon'].map(v => v + ' [custom room name]')
 handler.tags = ['rpg']
 handler.command = /^(dungeon)$/i
-handler.level = 5
+handler.level = 50
 handler.register = true
 handler.limit = true
 handler.mods = false

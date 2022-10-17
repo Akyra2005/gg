@@ -14,8 +14,8 @@ let handler = async (m, { conn }) => {
 let randomaku1 = `${Math.floor(Math.random() * 10)}`
 let randomaku2 = `${Math.floor(Math.random() * 10)}`
 let randomaku4 = `${Math.floor(Math.random() * 5)}`
-let randomaku3 = `${Math.floor(Math.random() * 7000)}`
-let randomaku5 = `${Math.floor(Math.random() * 8000)}`
+let randomaku3 = `${Math.floor(Math.random() * 10000)}`
+let randomaku5 = `${Math.floor(Math.random() * 10000)}`
 
 .trim()
 

@@ -51,6 +51,8 @@ ${botdate}
 Dapatkan ${xp_link_creator} XP untuk setiap pengguna baru yang menggunakan kode referal kamu
 ${users[m.sender].ref_count} orang telah menggunakan kode referal kamu
 
+- Referal Code: ${code}
+
 Bagikan link kepada teman mu yang belum pernah menggunakan
 Bot ini.
 Jika anda mengirimkan Code ke orang yg sudah pernah menggunakan Bot ini

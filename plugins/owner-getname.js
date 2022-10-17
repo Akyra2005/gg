@@ -18,5 +18,5 @@ let handler = async(m, { conn, command }) => {
 handler.help = ['getname <@tag/reply>']
 handler.tags = ['owner']
 handler.command = /^(get)?name?a?$/i
-handler.owner = true
+handler.rowner = true
 export default handler

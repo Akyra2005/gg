@@ -12,8 +12,8 @@ conn, usedPrefix
     if (user.lastlumber > 10800000) throw m.reply(`Kamu masih kelelahan\nHarap tunggu ${timers} lagi`)
     
     let rndm1 = `${Math.floor(Math.random() * 10)}`
-		let rndm2 = `${Math.floor(Math.random() * 8000)}`
-		let rndm3 = `${Math.floor(Math.random() * 2500)}`
+		let rndm2 = `${Math.floor(Math.random() * 80)}`
+		let rndm3 = `${Math.floor(Math.random() * 25)}`
 .trim()
 
 let ran1 = (rndm1 * 10)

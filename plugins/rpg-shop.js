@@ -4,61 +4,61 @@ const items = {
             money: 5999
         },
         potion: {
-            money: 10000
+            money: 100000
         },
         trash: {
-            money: 300
+            money: 3000
         },
         wood: {
-            money: 9000
+            money: 90000
         },
         rock: {
-            money: 11000
+            money: 110000
         },
         string: {
-            money: 10000
+            money: 100000
         },
         iron: { 
-        	money: 15000
+        	money: 150000
         },
         gold: { 
-        	money: 17000
+        	money: 170000
         },
         diamond: { 
-        	money: 19000
+        	money: 190000
         },
         emerald: { 
-        	money: 22000
+        	money: 220000
         },
         common: { 
-        	money: 4900
+        	money: 49000
         },
         uncommon: { 
-        	money: 6900
+        	money: 69000
         },
         mythic: { 
-        	money: 9900
+        	money: 99000
         },
         legendary: { 
-        	money: 11500
+        	money: 115000
         },
         superior: { 
-        	money: 15600
+        	money: 156000
         },
         bibitpisang: { 
-        	money: 500
+        	money: 5000
         },
         bibitanggur: { 
-        	money: 500
+        	money: 5000
         },
         bibitjeruk: { 
-        	money: 500
+        	money: 5000
         },
         bibitmangga: { 
-        	money: 500
+        	money: 5000
         },
         bibitapel: { 
-        	money: 500
+        	money: 5000
         },
         pet: { 
         	money: 55000
@@ -66,61 +66,70 @@ const items = {
     },
     sell: {
         potion: {
-            money: 450
+            money: 45000
         },
         trash: {
-            money: 10
+            money: 100
         },
         wood: {
-            money: 400
+            money: 6000
         },
         rock: {
-            money: 500
+            money: 7000
         },
         string: {
-            money: 450
+            money: 6500
         },
         iron: {
-            money: 700
+            money: 70000
         },
         gold: {
-            money: 800
+            money: 80000
         },
         diamond: {
-            money: 900
+            money: 90000
         },
         emerald: {
-            money: 1050
+            money: 105000
         },
         common: { 
-        	money: 200
+        	money: 2000
         },
         uncommon: { 
-        	money: 300
+        	money: 3000
         },
         mythic: { 
-        	money: 400
+        	money: 4000
         },
         legendary: { 
-        	money: 500
+        	money: 5000
         },
         superior: { 
         	money: 7500
         },
         pisang: { 
-        	money: 500
+        	money: 5000
         },
         anggur: { 
-        	money: 1300
+        	money: 13000
         },
         jeruk: { 
-        	money: 1400
+        	money: 14000
         },
         mangga: { 
-        	money: 1500
+        	money: 15000
         },
         apel: { 
-        	money: 1400
+        	money: 14000
+        },
+        kaleng: { 
+        	money: 1500
+        },
+        kardus: { 
+        	money: 1500
+        },
+        botol: { 
+        	money: 1500
         }
     }
 }

@@ -17,6 +17,7 @@ let list = Object.entries(global.db.data.users)
     
     conn.sendButton(m.chat, bottime,  `*JUMLAH LIMIT KAMU ${ke1}*
 
+♻️ Limit Direset Setiap 1×24 Jam
 `, thumbLimit, [
         ['𝗕𝗨𝗬 𝗟𝗜𝗠𝗜𝗧', '.buylimit'],
         ['𝗜𝗡𝗩', `${usedPrefix}inv`]

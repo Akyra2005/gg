@@ -8,20 +8,20 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   global.db.data.users[m.sender].fishingrod = global.db.data.users[m.sender].fishingrod || 0
   
   //----------HARGA
-  let hdog = 20
-  let hcat = 20
-  let hhorse = 40
-  let hfox = 60
-  let hrobo = 100
+  let hdog = 200
+  let hcat = 200
+  let hhorse = 40)
+  let hfox = 600
+  let hrobo = 1000
   
-  let hlion = 100
-  let hrhinoceros = 100
-  let hdragon = 100
-  let hcentaur = 100
-  let hkyubi = 100
-  let hgriffin = 100
-  let hphonix = 100
-  let hwolf = 100
+  let hlion = 1000
+  let hrhinoceros = 1000
+  let hdragon = 1000
+  let hcentaur = 1000
+  let hkyubi = 1000
+  let hgriffin = 1000
+  let hphonix = 1000
+  let hwolf = 1000
 
 let logo = `*P E T   S T O R E*
 `

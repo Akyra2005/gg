@@ -14,8 +14,8 @@ let handler = async (m, { conn }) => {
 let ngerok1 = `${Math.floor(Math.random() * 10)}`
 let ngerok2 = `${Math.floor(Math.random() * 10)}`
 let ngerok4 = `${Math.floor(Math.random() * 5)}`
-let ngerok3 = `${Math.floor(Math.random() * 7000)}`
-let ngerok5 = `${Math.floor(Math.random() * 5000)}`
+let ngerok3 = `${Math.floor(Math.random() * 70000)}`
+let ngerok5 = `${Math.floor(Math.random() * 50000)}`
 
 .trim()
 
@@ -134,6 +134,7 @@ handler.command = /^(roket|ngroket|groket|jadiroket)$/i
 handler.register = true
 handler.group = true
 handler.level = 5
+handler.limit = 50
 export default handler
 
 

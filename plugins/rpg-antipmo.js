@@ -6,6 +6,8 @@ let info = `
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*SUBHANALLAH*', 'status@broadcast')
 }
 handler.command = /^(antipmo)$/i
+handler.tags = ['rpg']
+handler.help = ['antipmo']
 handler.owner = true
 handler.mods = false
 handler.premium = false

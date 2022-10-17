@@ -30,6 +30,9 @@ const inventory = {
     iron: true,
     upgrader: true,
     pet: true,
+    kardus: true,
+    botol: true,
+    kaleng: true,
   },
   durabi: {
     sworddurability: true,

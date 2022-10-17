@@ -11,26 +11,26 @@ conn, usedPrefix
     if (user.stamina < 20) return m.reply(`Stamina anda tidak cukup\nharap isi stamina anda dengan *${usedPrefix}eat8`)
     if (user.lastgrab > 10800000) throw m.reply(`Kamu masih kelelahan\nHarap tunggu ${timers} lagi`)
     
-    let rndm1 = `${Math.floor(Math.random() * 4)}`
-		let rndm2 = `${Math.floor(Math.random() * 4)}`
-		let rndm3 = `${Math.floor(Math.random() * 4)}`
-		let rndm4 = `${Math.floor(Math.random() * 4)}`
-		let rndm5 = `${Math.floor(Math.random() * 4)}`
-		let rndm6 = `${Math.floor(Math.random() * 4)}`
-		let rndm7 = `${Math.floor(Math.random() * 4)}`
-		let rndm8 = `${Math.floor(Math.random() * 4)}`
-		let rndm9 = `${Math.floor(Math.random() * 4)}`
+    let rndm1 = `${Math.floor(Math.random() * 2)}`
+		let rndm2 = `${Math.floor(Math.random() * 2)}`
+		let rndm3 = `${Math.floor(Math.random() * 2)}`
+		let rndm4 = `${Math.floor(Math.random() * 2)}`
+		let rndm5 = `${Math.floor(Math.random() * 2)}`
+		let rndm6 = `${Math.floor(Math.random() * 2)}`
+		let rndm7 = `${Math.floor(Math.random() * 2)}`
+		let rndm8 = `${Math.floor(Math.random() * 2)}`
+		let rndm9 = `${Math.floor(Math.random() * 2)}`
 .trim()
 
-let ran1 = (rndm1 * 4)
-let ran2 = (rndm2 * 4)
-let ran3 = (rndm3 * 4)
-let ran4 = (rndm4 * 4)
-let ran5 = (rndm5 * 4)
-let ran6 = (rndm6 * 4)
-let ran7 = (rndm7 * 4)
-let ran8 = (rndm8 * 4)
-let ran9 = (rndm9 * 4)
+let ran1 = (rndm1 * 1)
+let ran2 = (rndm2 * 1)
+let ran3 = (rndm3 * 1)
+let ran4 = (rndm4 * 1)
+let ran5 = (rndm5 * 1)
+let ran6 = (rndm6 * 1)
+let ran7 = (rndm7 * 1)
+let ran8 = (rndm8 * 1)
+let ran9 = (rndm9 * 1)
 
 let hmsil1 = `${ran1}`
 let hmsil2 = `${ran2}`

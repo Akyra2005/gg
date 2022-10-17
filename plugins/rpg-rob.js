@@ -10,8 +10,8 @@ conn
     if (user.stamina < 20) return m.reply(`Stamina anda tidak cukup untuk bekerja\nharap isi stamina anda dengan #eat`)
     if (user.lastrob > 10800000) throw m.reply(`Kamu masih kelelahan untuk bekerja\nHarap tunggu ${timers} lagi untuk rob`)
 
-let rndm1 = `${Math.floor(Math.random() * 5000)}`
-let rndm2 = `${Math.floor(Math.random() * 5000)}`
+let rndm1 = `${Math.floor(Math.random() * 10000)}`
+let rndm2 = `${Math.floor(Math.random() * 10000)}`
 .trim()
 
 let ran1 = (rndm1 * 10)
