@@ -804,7 +804,7 @@ esteh: 0,
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `*LIMIT ANDA KURANG*\n🛍️ Silahkan Beli Melalui *${usedPrefix}buy limit*`, m)
+                    this.reply(m.chat, `*LIMIT ANDA KURANG*\n🛍️ Silahkan Beli Melalui *${usedPrefix}buy limit*\n\n♻️Limit Direset Setiap 1×24 Jam`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
