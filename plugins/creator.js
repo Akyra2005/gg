@@ -9,7 +9,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let teksnomor = `${htki} *OWNER* ${htka}
   
 Tag: *@${nomorown.split`@`[0]}*
-Link: *wa.me/6285850539404*
+Link: *wa.me/6281347927862*
 
 *✉️NB: Ini Bukan Nomor Bot Tapi Owner*`
 
